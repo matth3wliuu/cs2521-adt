@@ -32,7 +32,6 @@ int hash(char *key, int size) {
     }
 
     return h;
-
 }
 
 void hashInsert(HashTable hTable, char* item) {
@@ -57,6 +56,7 @@ void hashInsert(HashTable hTable, char* item) {
     if (arr[hashed] != NULL) free(arr[hashed]);
 
     arr[hashed] = item;
+    
 }
 
 char *hashGet(HashTable hTable, char *key) {
@@ -117,8 +117,6 @@ void hashDelete(HashTable hTable, char *key) {
 
 }
 
-void freeHashTable(HashTable hTable);
-
 void displayHashTable(HashTable hTable) {
 
     for (int i = 0; i < hTable->size; i++) {
@@ -128,3 +126,5 @@ void displayHashTable(HashTable hTable) {
 
     printf("|\n");
 }
+
+void freeHashTable(HashTable hTable);
