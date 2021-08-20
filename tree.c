@@ -325,3 +325,4 @@ static void compute_rprofile(asciinode *node, int x, int y)
 	compute_rprofile(node->left, x - node->edge_length - 1, y + node->edge_length + 1);
 	compute_rprofile(node->right, x + node->edge_length + 1, y + node->edge_length + 1);
 }
+
