@@ -8,7 +8,8 @@ typedef struct HeapRep {
     char *items;
     int currSize;
     int maxSize;
-} *Heap;
+} HeapRep;
+typedef HeapRep *Heap;
 
 Heap heapCreate(int size);
 
@@ -21,4 +22,3 @@ void heapSort(char *arr, int size);
 void heapDisplay(Heap h);
 
 void displayArray(char *arr, int size);
-
