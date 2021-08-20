@@ -22,3 +22,4 @@ void heapSort(char *arr, int size);
 void heapDisplay(Heap h);
 
 void displayArray(char *arr, int size);
+
