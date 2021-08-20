@@ -1,2 +1,8 @@
 # 2521-Basics
-Standard ADT for 2521 data structures and algorithms
+Standard API's from COMP2521 
+- Binary Search Tree
+- Graphs
+- Heap 
+- Hash Table
+- Trie
+- Sorting Algorithms
