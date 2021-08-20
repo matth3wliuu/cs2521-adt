@@ -22,4 +22,3 @@ void hashDelete(HashTable hTable, char *key);
 void freeHashTable(HashTable hTable);
 
 void displayHashTable(HashTable hTable);
-
